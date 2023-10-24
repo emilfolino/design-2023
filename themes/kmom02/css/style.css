@@ -6625,3 +6625,62 @@ pre code {
     cursor: pointer;
   }
 }
+.box {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1.96rem;
+}
+
+.box:hover {
+  box-shadow: 10px 10px 5px 0 rgba(174, 184, 191, 0.2);
+}
+
+.landingpage {
+  display: grid;
+  gap: 1.96rem 1.96rem;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+}
+
+.span1 {
+  grid-column: span 1;
+}
+
+.span2 {
+  grid-column: span 2;
+}
+
+.span3 {
+  grid-column: span 3;
+}
+
+.single {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.menu {
+  width: 30%;
+  font-size: 1.4rem;
+}
+
+.content {
+  width: 60%;
+}
+
+@media (max-width: 767px) {
+  .landingpage h1,
+  .box {
+    grid-column: span 1;
+  }
+  .menu {
+    display: none;
+  }
+  .content {
+    width: 100%;
+  }
+}

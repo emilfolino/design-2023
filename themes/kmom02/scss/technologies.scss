@@ -1,0 +1,61 @@
+.box {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: $vertical-rhythm;
+}
+
+.box:hover {
+    box-shadow: 10px 10px 5px 0 $nourivre-1-rgba;
+}
+
+.landingpage {
+    display: grid;
+    gap: $vertical-rhythm $vertical-rhythm;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+}
+
+.span1 {
+    grid-column: span 1;
+}
+
+.span2 {
+    grid-column: span 2;
+}
+
+.span3 {
+    grid-column: span 3;
+}
+
+.single {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.menu {
+    width: 30%;
+    font-size: $base-font-size;
+}
+
+.content {
+    width: 60%;
+}
+
+@media (max-width: 767px) {
+    .landingpage h1,
+    .box {
+        grid-column: span 1;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+    }
+}

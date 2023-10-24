@@ -2,7 +2,6 @@
 Title: Om
 Description: Detta är en om sida.
 ---
-#
 Om sidan
 ==========================
 
