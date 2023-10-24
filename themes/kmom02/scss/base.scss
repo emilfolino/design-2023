@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+    background: $gradient;
+}
+
+.container {
+    max-width: 67rem;
+    padding: $vertical-rhythm 1.5rem;
+    background-color: $font-alternative-color;
+    margin: 0 auto;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+.hidden {
+    display: none !important;
+}

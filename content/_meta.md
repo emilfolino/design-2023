@@ -4,5 +4,5 @@ Tagline: Emils portfolio
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/emilfolino/design-2023
-      icon: github
+      icon: fab fa-github
 ---

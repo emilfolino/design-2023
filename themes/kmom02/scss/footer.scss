@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid $nourivre-1-hex;
+    background-color: $nourivre-3-hex;
+    align-items: center;
+    padding: 2 * $vertical-rhythm 3 * $vertical-rhythm;
+    color: $font-alternative-color;
+}
+
+.footer a {
+    color: $font-alternative-color;
+}
+
+.footer .social {
+    font-size: 6rem;
+}

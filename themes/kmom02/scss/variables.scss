@@ -1,0 +1,27 @@
+$nourivre-1-hex: #aeb9bf;
+$nourivre-2-hex: #262522;
+$nourivre-3-hex: #403c37;
+$nourivre-4-hex: #f2e6d8;
+$nourivre-5-hex: #d9ccc1;
+
+/* Color Theme Swatches in Hex */
+$nourivre-1-hex: #AEB9BF;
+$nourivre-2-hex: #262522;
+$nourivre-3-hex: #403C37;
+$nourivre-4-hex: #F2E6D8;
+$nourivre-5-hex: #D9CCC1;
+
+/* Color Theme Swatches in RGBA */
+$nourivre-1-rgba: rgba(174, 184, 191, 0.2);
+$nourivre-2-rgba: rgba(38, 37, 33, 0.2);
+$nourivre-3-rgba: rgba(63, 59, 54, 0.2);
+$nourivre-4-rgba: rgba(242, 230, 215, 0.2);
+$nourivre-5-rgba: rgba(216, 204, 192, 0.2);
+
+$gradient: linear-gradient(120deg, $nourivre-1-rgba, $nourivre-4-rgba, $nourivre-5-rgba);
+
+$font-color: $nourivre-2-hex;
+$font-alternative-color: #fff;
+
+$header-font: 'Inter', sans-serif;
+$paragraph-font: 'Cormorant Garamond', serif;
