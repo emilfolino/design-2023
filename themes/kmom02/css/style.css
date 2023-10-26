@@ -6536,6 +6536,7 @@ img {
 
 .footer a {
   color: #fff;
+  text-decoration: none;
 }
 
 .footer .social {
