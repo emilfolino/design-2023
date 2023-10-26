@@ -7,7 +7,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variables-dark';
 @import 'typography';
 @import 'base';
 
@@ -19,7 +19,3 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'mobile-menu';
 
 @import 'technologies';
-
-body {
-    background-color: #f0f;
-}

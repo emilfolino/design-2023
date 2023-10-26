@@ -1,26 +1,19 @@
-$nourivre-1-hex: #aeb9bf;
-$nourivre-2-hex: #262522;
-$nourivre-3-hex: #403c37;
-$nourivre-4-hex: #f2e6d8;
-$nourivre-5-hex: #d9ccc1;
-
-/* Color Theme Swatches in Hex */
-$nourivre-1-hex: #AEB9BF;
-$nourivre-2-hex: #262522;
-$nourivre-3-hex: #403C37;
-$nourivre-4-hex: #F2E6D8;
-$nourivre-5-hex: #D9CCC1;
+$nourivre-1-hex: #3100e0;
+$nourivre-2-hex: #c600e0;
+$nourivre-3-hex: #7b00e0;
+$nourivre-4-hex: #0016e0;
+$nourivre-5-hex: #e0008a;
 
 /* Color Theme Swatches in RGBA */
-$nourivre-1-rgba: rgba(174, 184, 191, 0.2);
-$nourivre-2-rgba: rgba(38, 37, 33, 0.2);
-$nourivre-3-rgba: rgba(63, 59, 54, 0.2);
-$nourivre-4-rgba: rgba(242, 230, 215, 0.2);
-$nourivre-5-rgba: rgba(216, 204, 192, 0.2);
+$nourivre-1-rgba: rgba(49, 0, 224, 0.5);
+$nourivre-2-rgba: rgba(198, 0, 224, 0.5);
+$nourivre-3-rgba: rgba(123, 0, 224, 0.5);
+$nourivre-4-rgba: rgba(0, 22, 224, 0.5);
+$nourivre-5-rgba: rgba(224, 0, 138, 0.5);
 
 $gradient: linear-gradient(120deg, $nourivre-1-rgba, $nourivre-4-rgba, $nourivre-5-rgba);
 
-$font-color: $nourivre-2-hex;
+$font-color: #333;
 $font-alternative-color: #fff;
 
 $header-font: 'Inter', sans-serif;
