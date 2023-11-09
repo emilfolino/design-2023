@@ -68,12 +68,24 @@ body {
     padding: 0 1.7rem;
 }
 
-.nav a:hover {
+/* .nav a:hover {
     border-bottom: 4px solid #F2C029;
 }
 
 .nav li.active a {
     border-bottom: 4px solid #D91424;
+} */
+
+.nav li:first-child {
+    background-color: #f0f;
+}
+
+.nav li:last-child {
+    background-color: #0ff;
+}
+
+.nav li:hover {
+    background-color: #ff0;
 }
 
 /* Title */
