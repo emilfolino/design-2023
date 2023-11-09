@@ -22,6 +22,10 @@
     grid-column: span 1;
 }
 
+.span1 picture {
+    width: 100%;
+}
+
 .span2 {
     grid-column: span 2;
 }
@@ -50,6 +54,10 @@
     .landingpage h1,
     .box {
         grid-column: span 1;
+    }
+
+    .landingpage img {
+        width: 100%;
     }
 
     .menu {

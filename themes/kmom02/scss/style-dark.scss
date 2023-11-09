@@ -9,17 +9,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables-dark';
 @import 'typography';
-@import 'mobile-menu';
 
 @import 'base';
 
 @import 'header';
 @import 'footer';
 
-@import 'blockquotes';
-@import 'code';
-
-
-@import 'technologies';
-
-@import 'tables';
+@import 'specifics';
