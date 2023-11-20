@@ -1,5 +1,5 @@
 ---
-Logo: image/control.jpg?w=100
+Logo: image/control.jpg?w=200
 Tagline: Emils portfolio
 Social:
     - title: Link till sidans github repo.

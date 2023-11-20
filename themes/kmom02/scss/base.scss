@@ -33,3 +33,10 @@ object,
 video {
     max-width: 100%;
 }
+
+.split {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: $vertical-rhythm;
+    gap: 2 * $vertical-rhythm;
+}

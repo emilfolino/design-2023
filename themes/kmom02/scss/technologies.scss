@@ -3,7 +3,18 @@
     border-radius: 4px;
     padding: $vertical-rhythm;
     background-color: $nourivre-5-hex;
+    color: $header-font-color;
+
+    a {
+        color: $header-font-color;
+        text-decoration: none;
+    }
+
+    &:hover a {
+        text-decoration: underline;
+    }
 }
+
 
 .box:hover {
     box-shadow: 10px 10px 5px 0 $nourivre-1-rgba;

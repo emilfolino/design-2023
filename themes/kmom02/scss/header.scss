@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $nourivre-5-hex
+    background-color: $nourivre-5-hex;
+    color: $header-font-color;
+    border-bottom: 4px solid $nourivre-1-hex;
 }
 
 .site-header {
@@ -10,13 +12,10 @@
     align-items: center;
 }
 
-.header {
-    border-bottom: 4px solid $nourivre-1-hex;
-}
-
 .site-header a {
     font-weight: bold;
     text-decoration: none;
+    color: $header-font-color;
 }
 
 .nav {
@@ -25,7 +24,7 @@
         font-size: 1.7rem;
         text-decoration: none;
         padding: 0 1rem;
-        color: $font-color;
+        color: $header-font-color;
     }
 
     a:hover {
@@ -39,6 +38,6 @@
 
 
 .title * {
-    color: $font-color;
-    margin: 0;
+    color: $header-font-color;
+    margin: 0 2rem;
 }
