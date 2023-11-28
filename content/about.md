@@ -1,6 +1,10 @@
 ---
 Title: Om
 Description: Detta är en om sida.
+Colors:
+    - name: red
+    - name: green
+    - name: blue
 ---
 Om sidan
 ==========================
